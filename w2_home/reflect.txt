@@ -1,0 +1,34 @@
+/**********************************************************
+ * Name: stephane kamdem kamguia
+ * Student ID: 135736189
+ * Workshop 2_lab
+ * Seneca email: skamdem-kamguia@myseneca.ca
+ * Section: NHH
+ **********************************************************/
+
+
+1. The reason for allocating a new set of dynamic memory is because that original
+set of memory is operated for that specific array. Meaning, that memory is fitted 
+for to match the size need for that array. By creating a new dynamic memory, we are 
+creating the required space that we need for the new array.
+
+2. The reason for not deleting the memory for specific variables such as name or even
+population is because each variable is stored within the structure Kingdom. By deleting
+the space of memory that we used for the Kingdom structure any data that we used or 
+even entered will be deleted and or erased. New data can then be stored using the same 
+structure, using a different size.
+
+3. By using two display functions in our program we using a term called function overload. 
+This term means that we are using the exact same function multiple times in our code but 
+we are altering the function so that we can pass different parameters instead of the one
+used. When compiling a program, the compiler will look at both the function, the function 
+prototype, the parameters being sent and most importantly the call. The complier will pinpoint
+which function to use by the amount of parameters being sent, we can then use this to figure
+out which function these parameters line up to. 
+
+4. I've learned two things while doing this workshop, the reason for allocating memory and function
+overload. The reason for allocating is so that we can create a block of data in the memory that we 
+can within the system. This memory is set at a specific size so that we won't have to waste any
+unused memory. Function overload can be used by declaring a function with the similar purpose with the
+exact same variable name. We use function overload so we can have similar functions in our code 
+but take in different parameters instead.

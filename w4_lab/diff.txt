@@ -1,0 +1,14 @@
+In line number 17 of your output:
+The output should be:
+Super Saiyan Ability: Not super Saiyan.
+                          ^
+But your output is: 
+Super Saiyan Ability: Not Super Saiyan.
+                          ^
+
+Unmatched character details:
+The character in column 27 is supposed to be:
+  [s] ASCII code(115)
+but you printed
+  [S] ASCII code(83)
+

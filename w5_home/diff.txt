@@ -1,0 +1,14 @@
+In line number 25 of your output:
+The output should be:
+liner-106.00
+^
+But your output is: 
+==205334== Invalid read of size 8
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [l] ASCII code(108)
+but you printed
+  [=] ASCII code(61)
+

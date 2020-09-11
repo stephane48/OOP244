@@ -1,0 +1,16 @@
+/**********************************************************
+ * Name: stephane kamdem kamguia
+ * Student ID: 135736189
+ * Workshop: 04_home
+ * Seneca email: skamdem-kamguia@myseneca.ca
+ * Section: NHH
+ **********************************************************/
+I've learnt to  do not trust Visual Code (VS) and to empty my char arrays. As well, 
+I've learnt how to use strlen, cause I haven't used it before; how to overload 
+constructors and set empty state for the validation purposes. In addiation, still 
+learn how to include comments and documentations in my code. And I've learnt to do 
+not forget to input "const" to query functions,which don't modify data.
+
+Futhermore, in my set function I had a problm when I tried to allocate a dynamically memory
+to m_name because for the size of the dynamic memory i did'nt increase by 1 so i got a
+memory leak because of that. 

@@ -1,0 +1,14 @@
+In line number 63 of your output:
+The output should be:
+Enter the number of wrapping layers for the Gift: 1
+^
+But your output is: 
+Wrapping gifts...
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [E] ASCII code(69)
+but you printed
+  [W] ASCII code(87)
+

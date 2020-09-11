@@ -1,0 +1,26 @@
+/**********************************************************
+ * Name: stephane kamdem kamguia
+ * Student ID: 135736189
+ * Seneca email: skamdem-kamguia@myseneca.ca
+ * Section: NHH
+ **********************************************************/
+
+In this workshop 5, I found a lot of difficulty and those difficulties learnt a lot of things.
+
+First,  It is important for the copy assignment to check itself before doing anything else because if it doesnt, 
+the code will crash and implode on it's own.  What I mean by this is that:
+If you are going to transfer B to A, and yet address A == address B, if your A object will need to delete any 
+dynamic memory and set it to null, it will end up deleting itself, and thus the code will crash, or it may survive 
+but it will not run as you'd expect it.
+
+Second, I learnt why a copy constructor and copy assignment operator are needed when a class uses dynamic memory 
+allocation to hold its resources because each object that holds a resource is independent of other objects and the 
+resources they hold.  The added benefit to this is so that it allows for not only shallow assignments but also deep copies. 
+ When you're doing a shallow copy of an object such as:  objA = objB
+The members get copied, but dynamically allocated members won't. 
+
+Finally, Only the pointer variable gets copied, but not the values
+inside them. Therefore, deep copying allows for independence of other objects, 
+and to also have a better management of dynamic memory, and addresses, and to ensure that memory doesn't leak.
+
+ 

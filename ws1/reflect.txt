@@ -1,0 +1,19 @@
+/**********************************************************
+ * Name: stephane kamdem kamguia
+ * Student ID: 135736189
+ * Seneca email: skamdem-kamguia@myseneca.ca
+ * Section: NHH
+ **********************************************************/
+
+In this workshop, i learnt many thing and i also got also of difficulties
+to do it well.
+
+First, i learnt how to create two differents modules which are WordStat, Word and Tools.
+Moreover, i also nearnt how to link files at the header of another as I did in WordStat,
+I linked "Word.h" at the header of its
+
+Second, I learnt debugging technique because it was be useful when I wanted to compile my
+code and also helped me to solve problems that i had.
+
+Finally, I got a lot of problems to rediect the ouput file "FoxInSocks.txt" because I did
+not copie the file in my project, but after that everything was going good.

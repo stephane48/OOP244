@@ -1,0 +1,21 @@
+/**********************************************************
+ * Name: stephane kamdem kamguia
+ * Student ID: 135736189
+ * Seneca email: skamdem-kamguia@myseneca.ca
+ * Section: NHH
+ **********************************************************/
+
+During this milestones it was given to me to realize a parking application to fill 
+the information of a vehicle in a file and save the updates.
+
+Throughout this project, I learned a lot:
+-First, it is often necessary to implement the destructor in a base class as virtual, 
+even if no class is currently derived from this base class, which guarantees that the most 
+derived destructor will be called and that it it is not necessary to pass to the definition
+ of the base class when a class is derived from the base class.
+
+-Secondly, I learned that to eliminate the duplication of logic in 
+the whole hierarchical system we made use of polymorphism.
+
+Finally, this project was not easy because the instructions were not precise; 
+therefore I had great difficulty understanding the role of each function.

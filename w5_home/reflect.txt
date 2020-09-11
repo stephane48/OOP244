@@ -1,0 +1,26 @@
+/**********************************************************
+ * Name: stephane kamdem kamguia
+ * Student ID: 135736189
+ * Seneca email: skamdem-kamguia@myseneca.ca
+ * Section: NHH
+ **********************************************************/
+
+In this workshop 5, I found a lot of difficulty and those difficulties learnt a lot of things.
+Firstly, I have learned how to overload operators and use them in other overloaded operator definitions 
+to reduce code duplication and keep cleaner and crisp code. 
+
+Moreover, I have also learned to appreciate how overloaded operators can make coding faster, 
+more convenient and easier to read. I also learned how to do logical calculations thorugh operator overload, 
+such as comparing if two objects are equal by overloadint the '==' operator.
+
+Subsequently, I learned that objects can be created temporarily through the execution of another object's member functions, 
+in which case the temporary object will cease existing by the end of the function lifetime.
+
+Finally, the issues that i had in this workshop, was about to avoid memory leak, but i solved it by deleting my memory after used it;
+the second was about the bits character because when i was copying the odl array inside the new array my for loop was endless.
+
+I found this workshop difficult to understand the instructions expecially DIY and really hard to execute, 
+having more "trouble" with the instructions than with the code.
+
+That being said, the concept of pointers and references still eludes me somehow, so I had some trouble 
+figuring out the last overload function '+=' as it has to work with a pointer 'this' and return a reference of the object.  

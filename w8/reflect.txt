@@ -1,0 +1,24 @@
+/**********************************************************
+ * Name: stephane kamdem kamguia
+ * Student ID: 135736189
+ * Seneca email: skamdem-kamguia@myseneca.ca
+ * Section: NHH
+ **********************************************************/
+
+In this workshop 8, I found a lot of difficulty and those difficulties learnt a lot of things.
+
+First, I learned about polymorphism and it's concepts, include interface classes, abstract base classes, 
+virtual and pure virtual functions.
+Moreover, those interfaces can define behavior to it's multiple derived classes, serving as a blueprint
+for the rest of the hierarchy tree.
+
+Second, Interface classes cannot be implemented or initiated, as they are purely abstract classes, 
+but they define the layout of any other abstract and concrete classes that are derived from them. 
+Even though interface classes can not be implemented or initiated, by creating a pointer to an interface, 
+we can create a polymorphic object, that can change it's static type as needed. In addition, the only issue
+tha I got in this workshop, it was how to set by default the boolean "specialist" to false.
+
+Finally, I also learned about function bindings, which states how the object's current type define its 
+behavior when its member methods are used. The bindings can be either static, which means that the object's 
+base type methods will be used, or dynamic, which means that it's most derived type methods will be used.
+ 

@@ -1,0 +1,80 @@
+Script started on Mon 03 Feb 2020 01:19:39 PM EST
+==214302== Memcheck, a memory error detector
+==214302== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==214302== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==214302== Command: ws
+==214302== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+
+Set each Train to a non empty state, load cargo and display
+----------------------------------------------------------------
+1 - 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1
+***Train Summary***
+Name: Birthday Train ID: 1
+Cargo: Boxes Weight: 40.44
+
+***Train Summary***
+Name: Choo Choo Train ID: 2
+No cargo on this train.
+
+Increase cargo weight in a train and display
+----------------------------------------------------------------
+2 - 2 - 2 - 2 - 2 - 2 - 2 - 2 - 2 - 2
+t1 cargo was correctly increased
+t1 cargo was correctly increased to MAX_WEIGHT
+t1 cargo was correctly not increased
+
+***Train Summary***
+Name: Birthday Train ID: 1
+Cargo: Boxes Weight: 700.55
+
+Decrease cargo weight in a train with no cargo and display
+----------------------------------------------------------------
+3 - 3 - 3 - 3 - 3 - 3 - 3 - 3 - 3 - 3
+t2 doesn't have cargo was correctly not touched
+t2 after loading cargo was correctly not decreased below MIN_WEIGHT
+t2 decreased weight correctly
+
+***Train Summary***
+Name: Choo Choo Train ID: 2
+Cargo: Flowers Weight: 80.44
+
+Swap cargo between train t1 and t2
+----------------------------------------------------------------
+4 - 4 - 4 - 4 - 4 - 4 - 4 - 4 - 4 - 4
+***Train Summary***
+Name: Birthday Train ID: 1
+Cargo: Flowers Weight: 80.44
+
+***Train Summary***
+Name: Choo Choo Train ID: 2
+Cargo: Boxes Weight: 700.55
+
+Unload Cargo from each Train and attempt to swap
+----------------------------------------------------------------
+5 - 5 - 5 - 5 - 5 - 5 - 5 - 5 - 5 - 5
+correctly did not attempt to swap train without cargo
+
+***Train Summary***
+Name: Birthday Train ID: 1
+No cargo on this train.
+
+***Train Summary***
+Name: Choo Choo Train ID: 2
+No cargo on this train.
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==214302== 
+==214302== HEAP SUMMARY:
+==214302==     in use at exit: 0 bytes in 0 blocks
+==214302==   total heap usage: 2 allocs, 2 frees, 64 bytes allocated
+==214302== 
+==214302== All heap blocks were freed -- no leaks are possible
+==214302== 
+==214302== For counts of detected and suppressed errors, rerun with: -v
+==214302== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Mon 03 Feb 2020 01:19:39 PM EST

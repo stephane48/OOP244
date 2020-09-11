@@ -1,0 +1,17 @@
+/**********************************************************
+ * Name: stephane kamdem kamguia
+ * Student ID: 135736189
+ * Seneca email: skamdem-kamguia@myseneca.ca
+ * Section: NHH
+ **********************************************************/
+In this workshop 7, I found a lot of difficulty and those difficulties learnt a lot of things.
+
+First,  I learnt that how to call a constructo in another construction to fill an object properly,
+but on this part I had difficulties because I called the Vehhicle() constructor without setting that
+as a public member in the car() constructor. 
+
+Second, I learnt that we can not call a constructor within a function, while we can a constructor
+within another constructor because I try that and It broke code. 
+
+Finally, this workshop was not so confusing because we did not have to deal with dynamic memory which 
+appeals memory leak, so that is why I did not get too much issues to find the solutions.

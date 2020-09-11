@@ -1,0 +1,48 @@
+Script started on Wed 05 Feb 2020 05:23:16 PM EST
+==34807== Memcheck, a memory error detector
+==34807== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==34807== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==34807== Command: ws
+==34807== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Testing Saiyan objects
+
+Invalid Saiyan!
+Invalid Saiyan!
+
+Goku
+DOB: 1990 Power: 23000
+Super Saiyan Ability: Not super Saiyan.
+
+Vegeta
+DOB: 1989 Power: 22000
+Super Saiyan Ability: Not super Saiyan.
+
+Goku
+DOB: 1990 Power: 23000
+Super Saiyan Ability: Super Saiyan.
+
+S1 attacking S2, Battle Won
+S2 attacking S1, Battle Lost
+
+None should be Valid:
+index: 0 - Not valid.
+index: 1 - Not valid.
+index: 2 - Not valid.
+index: 3 - Not valid.
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==34807== 
+==34807== HEAP SUMMARY:
+==34807==     in use at exit: 0 bytes in 0 blocks
+==34807==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==34807== 
+==34807== All heap blocks were freed -- no leaks are possible
+==34807== 
+==34807== For counts of detected and suppressed errors, rerun with: -v
+==34807== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Wed 05 Feb 2020 05:23:16 PM EST

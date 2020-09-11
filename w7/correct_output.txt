@@ -1,0 +1,56 @@
+Script started on Mon 09 Mar 2020 08:00:03 PM EDT
+==210912== Memcheck, a memory error detector
+==210912== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==210912== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==210912== Command: a.out
+==210912== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+---------------------------------------------
+*** Checking Car default constructor ***
+Car is not initiated yet
+------------------------------------------------
+*** Checking Car 4 arg constructor (invalid ***)
+Car is not initiated yet
+Car is not initiated yet
+Car is not initiated yet
+-----------------------------------------------
+*** Checking Car 4 arg constructor (valid) ***
+SEDAN               2016|120|5
+SUV                 2018|110|8
+SPORTS              2020|130|2
+---------------------------------------------------
+*** Checking custom input and output operator ***
+Enter the car type: sedan
+Enter the car registration year: 2019
+Enter the Vehicle`s speed: 150
+Enter no of seats: 5
+sedan               2019|150|5
+Car has to be fine tuned for speed limit
+---------------------------------------------------
+*** Checking Car finetune ***
+This car is finely tuned to default speed
+sedan               2019|100|5
+----------------------------------------------------
+*** Checking Car finetune for nonempty car ***
+Enter the car type: sports
+Enter the car registration year: 1999
+Enter the Vehicle`s speed: 120
+Enter no of seats: 2
+Car cannot be tuned and has to be scraped
+Car is not initiated yet
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==210912== 
+==210912== HEAP SUMMARY:
+==210912==     in use at exit: 0 bytes in 0 blocks
+==210912==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==210912== 
+==210912== All heap blocks were freed -- no leaks are possible
+==210912== 
+==210912== For counts of detected and suppressed errors, rerun with: -v
+==210912== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Mon 09 Mar 2020 08:00:54 PM EDT

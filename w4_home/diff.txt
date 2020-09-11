@@ -1,0 +1,14 @@
+In line number 10 of your output:
+The output should be:
+Testing Saiyan objects
+^
+But your output is: 
+==160809== Invalid write of size 1
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [T] ASCII code(84)
+but you printed
+  [=] ASCII code(61)
+

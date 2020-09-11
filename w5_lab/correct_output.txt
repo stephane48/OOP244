@@ -1,0 +1,64 @@
+Script started on Tue 11 Feb 2020 12:26:09 AM EST
+==91146== Memcheck, a memory error detector
+==91146== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==91146== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==91146== Command: a.out
+==91146== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Testing Ship objects
+liner- 91.00
+6.00 liters - V8
+8.00 liters - V8
+4.20 liters - Inline
+
+No available data
+
+apollo- 61.00
+7.00 liters - D3
+2.00 liters - D0
+3.20 liters - D1
+
+
+Adding an engine to Titanic
+liner-106.00
+6.00 liters - V8
+8.00 liters - V8
+4.20 liters - Inline
+3.00 liters - V10
+
+
+Adding an engine to Rainbow
+The ship doesn't have a type! Engine cannot be added!
+No available data
+
+
+Adding an engine to Aurora
+apollo-261.00
+7.00 liters - D3
+2.00 liters - D0
+3.20 liters - D1
+40.00 liters - V20
+
+
+Comparing Titanic with the standards:
+Above average!
+
+
+Comparing the power of Titanic and Aurora:
+The ships have different power!
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==91146== 
+==91146== HEAP SUMMARY:
+==91146==     in use at exit: 0 bytes in 0 blocks
+==91146==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==91146== 
+==91146== All heap blocks were freed -- no leaks are possible
+==91146== 
+==91146== For counts of detected and suppressed errors, rerun with: -v
+==91146== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Tue 11 Feb 2020 12:26:09 AM EST

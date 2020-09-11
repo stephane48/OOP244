@@ -1,0 +1,14 @@
+In line number 59 of your output:
+The output should be:
+Both baskets are carrying the same fruits
+^
+But your output is: 
+They are not same type of Baskets
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [B] ASCII code(66)
+but you printed
+  [T] ASCII code(84)
+

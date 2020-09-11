@@ -1,0 +1,11 @@
+I have donne all the coding by myself and only copied the code that my professorprovied to complet 
+my workshops and assignments.
+
+Then add your name and your student number as signature
+
+/**********************************************************
+ * Name: stephane kamdem kamguia
+ * Student ID: 135736189
+ * Seneca email: skamdem-kamguia@myseneca.ca
+ * Section: NHH
+ **********************************************************/

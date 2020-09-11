@@ -1,0 +1,27 @@
+/**********************************************************
+ * Name: stephane kamdem kamguia
+ * Student ID: 135736189
+ * Seneca email: skamdem-kamguia@myseneca.ca
+ * Section: NHH
+ **********************************************************/
+
+1- Sometimes having undifined values cause various bugs and the safiest 
+to avoid that is to set variables in empty state. Moreover, to indicate that 
+variable do not have data, we assigne empty state as 0 for int and "\0" for char.
+
+2- Structures are basically puclic and do not have private data inside, therefore
+we can access all data without needing anything member function. While, classes have 
+private data and public at the point that, if we have access private data, we have to
+use the member functions which are public data.
+
+3- In entreprise, we use a lot of data and we have to hide data of the clients, and the 
+better way is to use classes because clients' data will not be accessible by everybody 
+because they will be private. In addition, because we do not want to lose the private 
+data or to break them classes are much more safer data to do that.
+
+4- In this workshop, I learned mamy things as follow:
+-I learned how to use the operator or keyword "this" to holds the address of the current
+object
+-How to built another member functions in cargo to access private data inside cargo
+(e.g. fixe and take)
+-How to make that no variables have unexpected values by using empty state
